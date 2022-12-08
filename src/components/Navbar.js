@@ -9,7 +9,7 @@ export default function Navbar(props) {
       <div className="container-fluid">
         <a
           className="navbar-brand"
-          href="/"
+          href="#"
           style={{
             color: props.mode === "dark" ? "white" : "black",
           }}
@@ -33,7 +33,7 @@ export default function Navbar(props) {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="/"
+                href="#"
                 style={{
                   color: props.mode === "dark" ? "white" : "black",
                 }}
@@ -41,7 +41,7 @@ export default function Navbar(props) {
                 Home
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 className="nav-link"
                 href="/about"
@@ -51,7 +51,7 @@ export default function Navbar(props) {
               >
                 About
               </a>
-            </li>
+            </li> */}
           </ul>
 
           {/* <form className="d-flex" role="search">
